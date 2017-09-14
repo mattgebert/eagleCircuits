@@ -1140,6 +1140,8 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <part name="C5" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="10nF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="0.1uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-RADIAL-2.5MM-25V-20%" value="0.1uF"/>
+<part name="ROUT1" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="0"/>
+<part name="ROUT2" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -1176,6 +1178,8 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <instance part="C5" gate="G$1" x="86.36" y="66.04" rot="R90"/>
 <instance part="C3" gate="G$1" x="119.38" y="78.74" rot="R270"/>
 <instance part="C4" gate="G$1" x="63.5" y="86.36" rot="R270"/>
+<instance part="ROUT1" gate="G$1" x="63.5" y="27.94" rot="R90"/>
+<instance part="ROUT2" gate="G$1" x="121.92" y="27.94" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1273,16 +1277,24 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <segment>
 <pinref part="RF1" gate="G$1" pin="1"/>
 <pinref part="U1" gate="A" pin="VOUT1"/>
-<wire x1="55.88" y1="30.48" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="30.48" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="SMA-VA" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="15.24" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="15.24" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="22.86" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="30.48"/>
 <label x="48.26" y="30.48" size="1.778" layer="95"/>
 <junction x="30.48" y="35.56"/>
 <junction x="71.12" y="38.1"/>
+<pinref part="ROUT1" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<junction x="55.88" y="22.86"/>
+<pinref part="ROUT1" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<junction x="55.88" y="33.02"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1334,18 +1346,26 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <segment>
 <pinref part="U1" gate="A" pin="VOUT2"/>
 <wire x1="111.76" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="127" y1="38.1" x2="127" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="127" y1="38.1" x2="127" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="127" y1="33.02" x2="127" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="27.94" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="RF2" gate="G$1" pin="2"/>
 <pinref part="SMA-VB" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="15.24" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="15.24" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <junction x="132.08" y="27.94"/>
 <label x="134.62" y="27.94" size="1.778" layer="95"/>
 <junction x="111.76" y="38.1"/>
 <junction x="157.48" y="35.56"/>
 <junction x="132.08" y="15.24"/>
+<pinref part="ROUT2" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="22.86" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
+<junction x="127" y="33.02"/>
+<pinref part="ROUT2" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<junction x="132.08" y="22.86"/>
 </segment>
 </net>
 <net name="-IN2" class="0">

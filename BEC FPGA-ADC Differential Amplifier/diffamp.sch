@@ -1215,10 +1215,7 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 </net>
 <net name="-5V" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="-VS"/>
 <pinref part="SUPPLY3" gate="-5V" pin="-5V"/>
-<wire x1="111.76" y1="50.8" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
-<junction x="111.76" y="50.8"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="111.76" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
@@ -1235,6 +1232,8 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <pinref part="C3" gate="G$1" pin="-"/>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
 <junction x="114.3" y="68.58"/>
+<pinref part="U1" gate="A" pin="-VS"/>
+<wire x1="111.76" y1="63.5" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+IN1" class="0">
