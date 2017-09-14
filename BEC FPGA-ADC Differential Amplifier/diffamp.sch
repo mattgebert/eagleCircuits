@@ -1162,8 +1162,8 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <instance part="RF2" gate="G$1" x="152.4" y="35.56"/>
 <instance part="SUPPLY4" gate="GND" x="53.34" y="73.66" rot="R180"/>
 <instance part="SUPPLY5" gate="GND" x="132.08" y="76.2" rot="R180"/>
-<instance part="SMA-VB" gate="G$1" x="132.08" y="12.7" rot="MR90"/>
-<instance part="SMA-VA" gate="G$1" x="55.88" y="12.7" rot="R90"/>
+<instance part="SMA-VB" gate="G$1" x="149.86" y="12.7" rot="MR90"/>
+<instance part="SMA-VA" gate="G$1" x="35.56" y="12.7" rot="R90"/>
 <instance part="RDC1(DNI)" gate="G$1" x="58.42" y="60.96"/>
 <instance part="RDC2(DNI)" gate="G$1" x="124.46" y="60.96" rot="R180"/>
 <instance part="C1" gate="G$1" x="63.5" y="76.2" rot="R270"/>
@@ -1280,18 +1280,11 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <wire x1="55.88" y1="30.48" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SMA-VA" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="15.24" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="22.86" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<junction x="55.88" y="30.48"/>
 <label x="48.26" y="30.48" size="1.778" layer="95"/>
 <junction x="30.48" y="35.56"/>
 <junction x="71.12" y="38.1"/>
-<pinref part="ROUT1" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<junction x="55.88" y="22.86"/>
 <pinref part="ROUT1" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="33.02"/>
@@ -1313,14 +1306,14 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 </segment>
 <segment>
 <pinref part="SMA-VA" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="15.24" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <pinref part="SMA-VB" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
 <junction x="91.44" y="15.24"/>
-<junction x="58.42" y="15.24"/>
-<junction x="129.54" y="15.24"/>
+<junction x="38.1" y="15.24"/>
+<junction x="147.32" y="15.24"/>
 </segment>
 <segment>
 <pinref part="RG1" gate="G$1" pin="2"/>
@@ -1348,24 +1341,15 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <wire x1="111.76" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="127" y1="38.1" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="127" y1="33.02" x2="127" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="127" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="127" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="27.94" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="RF2" gate="G$1" pin="2"/>
-<pinref part="SMA-VB" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="15.24" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
-<junction x="132.08" y="27.94"/>
 <label x="134.62" y="27.94" size="1.778" layer="95"/>
 <junction x="111.76" y="38.1"/>
 <junction x="157.48" y="35.56"/>
-<junction x="132.08" y="15.24"/>
 <pinref part="ROUT2" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="22.86" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <junction x="127" y="33.02"/>
-<pinref part="ROUT2" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
-<junction x="132.08" y="22.86"/>
 </segment>
 </net>
 <net name="-IN2" class="0">
@@ -1444,6 +1428,25 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <pinref part="X3" gate="-2" pin="S"/>
 <wire x1="7.62" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="48.26" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VSMA1" class="0">
+<segment>
+<pinref part="ROUT1" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="SMA-VA" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
+<label x="48.26" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VSMA2" class="0">
+<segment>
+<pinref part="SMA-VB" gate="G$1" pin="1"/>
+<junction x="149.86" y="15.24"/>
+<wire x1="149.86" y1="15.24" x2="149.86" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="ROUT2" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="22.86" x2="149.86" y2="22.86" width="0.1524" layer="91"/>
+<label x="129.54" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
