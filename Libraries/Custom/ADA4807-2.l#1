@@ -36,13 +36,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -164,10 +164,18 @@
 <wire x1="-1.6002" y1="1.6002" x2="-1.6002" y2="-1.6002" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.6002" x2="-0.3048" y2="1.6002" width="0.1524" layer="51" curve="-180"/>
 <text x="-1.8034" y="0.254" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="-1.7272" y1="-1.7272" x2="1.7272" y2="-1.7272" width="0.1524" layer="21"/>
 <wire x1="1.7272" y1="-1.7272" x2="1.7272" y2="-1.5494" width="0.1524" layer="21"/>
+<wire x1="1.7272" y1="1.7272" x2="-1.7272" y2="1.7272" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="1.7272" x2="-1.7272" y2="1.5494" width="0.1524" layer="21"/>
 <wire x1="-1.7272" y1="-1.5494" x2="-1.7272" y2="-1.7272" width="0.1524" layer="21"/>
+<wire x1="1.7272" y1="1.5494" x2="1.7272" y2="1.7272" width="0.1524" layer="21"/>
 <text x="-2.921" y="1.3208" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<dimension x1="-1.7272" y1="1.7272" x2="1.7272" y2="1.7272" x3="0" y3="3.9" textsize="1.27" layer="21"/>
+<dimension x1="1.7272" y1="-1.7272" x2="1.7272" y2="1.7272" x3="-8.2" y3="0" textsize="1.27" layer="21"/>
+<dimension x1="-3.2" y1="-1" x2="3.1" y2="-1" x3="-0.05" y3="-4.6" textsize="1.27" layer="21"/>
+<dimension x1="-2.5654" y1="-1.1684" x2="2.5908" y2="-1.1684" x3="0.0127" y3="-6.95" textsize="1.27" layer="21"/>
 </package>
 <package name="RM_8-L">
 <smd name="1" x="-1.9939" y="0.975" dx="1.4732" dy="0.381" layer="1"/>
