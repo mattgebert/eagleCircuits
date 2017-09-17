@@ -169,8 +169,29 @@
 <text x="28.3464" y="0.7874" size="0.6096" layer="25">GND</text>
 <text x="9.153525" y="16.5354" size="1.016" layer="25">Differential
 Amplifier A</text>
-<text x="43.89755" y="13.877925" size="1.016" layer="25">Differential
+<text x="44.586525" y="13.681075" size="1.016" layer="25">Differential
 Amplifier B</text>
+<text x="32.08655" y="18.30705" size="0.6096" layer="26" rot="MR0">Chip ADA4807-2ARMZ </text>
+<text x="19.389725" y="18.5039" size="0.6096" layer="26" rot="MR270">RF1</text>
+<text x="37.99205" y="16.436975" size="0.6096" layer="26" rot="MR90">RF2</text>
+<text x="45.767625" y="20.66925" size="0.6096" layer="26" rot="MR0">ROUT2</text>
+<text x="13.877925" y="21.2598" size="0.6096" layer="26" rot="MR0">ROUT1</text>
+<text x="14.76375" y="10.82675" size="0.6096" layer="26" rot="MR0">RA1</text>
+<text x="44.980225" y="10.531475" size="0.6096" layer="26" rot="MR0">RA2</text>
+<text x="23.2283" y="8.46455" size="0.6096" layer="26" rot="MR270">RG1</text>
+<text x="35.925125" y="7.0866" size="0.6096" layer="26" rot="MR270">RG2</text>
+<text x="20.767675" y="8.562975" size="0.6096" layer="26" rot="MR270">RB1</text>
+<text x="38.38575" y="6.988175" size="0.6096" layer="26" rot="MR270">RB2</text>
+<text x="29.72435" y="9.350375" size="0.6096" layer="26" rot="MR0">C5</text>
+<text x="27.36215" y="15.649575" size="0.6096" layer="26" rot="MR0">C3</text>
+<text x="30.7086" y="15.55115" size="0.6096" layer="26" rot="MR0">C2</text>
+<text x="23.03145" y="24.704675" size="0.6096" layer="26" rot="MR0">C1</text>
+<text x="28.7401" y="24.60625" size="0.6096" layer="26" rot="MR0">C4</text>
+<text x="49.704625" y="14.5669" size="0.6096" layer="26" rot="MR0">Diff Amp B</text>
+<text x="14.5669" y="17.51965" size="0.6096" layer="26" rot="MR0">Diff Amp A</text>
+<text x="21.948775" y="21.948775" size="0.6096" layer="26" rot="MR270">RDC1 (DNI)</text>
+<text x="35.925125" y="21.85035" size="0.6096" layer="26" rot="MR270">RDC2 (DNI)</text>
+<text x="6.397625" y="7.28345" size="0.6096" layer="25" rot="R90">Chip ADA4807-2ARMZ </text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

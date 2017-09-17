@@ -150,12 +150,12 @@
 <wire x1="57.4675" y1="31.75" x2="0" y2="31.75" width="0.1524" layer="20"/>
 <text x="5.349875" y="6.7818" size="0.6096" layer="25" rot="R90">Designed By</text>
 <text x="6.619875" y="6.7818" size="0.9144" layer="25" rot="R90">Matthew Gebert</text>
-<wire x1="6.873875" y1="6.36905" x2="6.873875" y2="16.627475" width="0.1524" layer="25"/>
-<wire x1="6.873875" y1="16.627475" x2="6.530975" y2="16.970375" width="0.1524" layer="25"/>
-<wire x1="6.530975" y1="16.970375" x2="2.759075" y2="16.970375" width="0.1524" layer="25"/>
+<wire x1="7.464425" y1="6.36905" x2="7.464425" y2="16.627475" width="0.1524" layer="25"/>
+<wire x1="7.464425" y1="16.627475" x2="7.121525" y2="16.970375" width="0.1524" layer="25"/>
+<wire x1="7.121525" y1="16.970375" x2="2.759075" y2="16.970375" width="0.1524" layer="25"/>
 <wire x1="2.759075" y1="16.970375" x2="2.759075" y2="6.71195" width="0.1524" layer="25"/>
 <wire x1="2.759075" y1="6.71195" x2="3.101975" y2="6.36905" width="0.1524" layer="25"/>
-<wire x1="3.101975" y1="6.36905" x2="6.873875" y2="6.36905" width="0.1524" layer="25"/>
+<wire x1="3.101975" y1="6.36905" x2="7.464425" y2="6.36905" width="0.1524" layer="25"/>
 <text x="4.302125" y="6.71195" size="0.8382" layer="25" rot="R90">Differential Amp x2</text>
 <text x="5.2578" y="15.427325" size="0.4064" layer="25" rot="R90">2017</text>
 <text x="10.480675" y="0.83185" size="0.6096" layer="25">Inputs</text>
@@ -191,8 +191,9 @@ Amplifier B</text>
 <text x="14.5669" y="17.51965" size="0.6096" layer="26" rot="MR0">Diff Amp A</text>
 <text x="21.948775" y="21.948775" size="0.6096" layer="26" rot="MR270">RDC1 (DNI)</text>
 <text x="35.925125" y="21.85035" size="0.6096" layer="26" rot="MR270">RDC2 (DNI)</text>
-<text x="8.07085" y="7.28345" size="0.6096" layer="25" rot="R90">Chip ADA4807-2ARMZ </text>
+<text x="8.46455" y="6.594475" size="0.6096" layer="25" rot="R90">Chip ADA4807-2ARMZ </text>
 <text x="22.58695" y="0.733425" size="0.6096" layer="25">Supply</text>
+<text x="7.185025" y="6.88975" size="0.4064" layer="25" rot="R90">github.com/mattgebert/eagleCircuits</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
