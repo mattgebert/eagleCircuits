@@ -721,8 +721,8 @@ UsedLibrary="/home/matt/eagle/Libraries/SparkFun-Eagle-Libraries-master/User-Sub
 
 [Win_1]
 Type="Control Panel"
-Loc="983 21 1919 1054"
-State=2
+Loc="864 -4 1800 1054"
+State=1
 Number=0
 
 [Desktop]
