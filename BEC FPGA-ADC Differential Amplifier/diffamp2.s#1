@@ -1374,10 +1374,6 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <wire x1="137.16" y1="45.72" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
 <junction x="111.76" y="45.72"/>
 <junction x="137.16" y="48.26"/>
-<pinref part="RG2" gate="G$1" pin="1"/>
-<pinref part="RDC2(DNI)" gate="G$1" pin="1"/>
-<wire x1="127" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
-<junction x="137.16" y="48.26"/>
 </segment>
 </net>
 <net name="DAC-B2" class="0">
@@ -1433,6 +1429,13 @@ http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</de
 <pinref part="ROUT2" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
 <label x="111.76" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="RG2" gate="G$1" pin="1"/>
+<pinref part="RDC2(DNI)" gate="G$1" pin="1"/>
+<wire x1="127" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
