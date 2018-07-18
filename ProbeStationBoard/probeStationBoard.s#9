@@ -250,6 +250,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="Probe_Station_Pads">
+<packages>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+<deviceset name="PAD_RECTANGULAR">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>

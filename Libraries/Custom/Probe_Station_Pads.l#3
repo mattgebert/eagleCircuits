@@ -143,6 +143,9 @@
 </gates>
 <devices>
 <device name="" package="162.5MIL">
+<connects>
+<connect gate="G$1" pin="PAD" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

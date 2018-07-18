@@ -263,6 +263,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-3.4925" y="1.905" size="1.27" layer="27">&gt;NAME</text>
 <text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="162.5MIL">
+<smd name="1" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
+<polygon width="0.127" layer="1">
+<vertex x="-2.54" y="2.54"/>
+<vertex x="1.5875" y="2.54"/>
+<vertex x="1.5875" y="-1.5875"/>
+<vertex x="-2.54" y="-1.5875"/>
+</polygon>
+<dimension x1="1.5875" y1="-1.5875" x2="-2.54" y2="-1.5875" x3="-0.47625" y3="-0.635" textsize="1.27" layer="49" visible="yes"/>
+<text x="-3.81" y="3.175" size="1.27" layer="27">&gt;NAME</text>
+<text x="-4.1275" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="300MIL">
+<smd name="1" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
+<polygon width="0.127" layer="1">
+<vertex x="-3.81" y="2.8575"/>
+<vertex x="-2.8575" y="3.81"/>
+<vertex x="2.8575" y="3.81"/>
+<vertex x="3.81" y="2.8575"/>
+<vertex x="3.81" y="-2.8575"/>
+<vertex x="2.8575" y="-3.81"/>
+<vertex x="-2.8575" y="-3.81"/>
+<vertex x="-3.81" y="-2.8575"/>
+</polygon>
+<dimension x1="-3.81" y1="-2.8575" x2="3.81" y2="-2.8575" x3="0" y3="-1.5875" textsize="1.27" layer="49" visible="yes"/>
+<dimension x1="-2.8575" y1="3.81" x2="2.8575" y2="3.81" x3="0" y3="3.4925" textsize="1.27" layer="49" visible="yes"/>
+<text x="-3.175" y="4.1275" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.4925" y="-5.3975" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PAD">
@@ -304,6 +333,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
+<deviceset name="PAD_RECTANGULAR_162.5MIL" prefix="PAD">
+<gates>
+<gate name="G$1" symbol="PAD" x="-10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="162.5MIL">
+<connects>
+<connect gate="G$1" pin="PAD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAD_RECTANGULAR_300MIL" prefix="PAD">
+<gates>
+<gate name="G$1" symbol="PAD" x="-10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="300MIL">
+<connects>
+<connect gate="G$1" pin="PAD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -327,6 +386,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="PAD8" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_125MIL" device=""/>
 <part name="PAD9" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_125MIL" device=""/>
 <part name="PAD10" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_125MIL" device=""/>
+<part name="PAD11" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_162.5MIL" device=""/>
+<part name="PAD12" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_162.5MIL" device=""/>
+<part name="PAD13" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_300MIL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -346,10 +408,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="PAD8" gate="G$1" x="124.46" y="96.52"/>
 <instance part="PAD9" gate="G$1" x="124.46" y="78.74"/>
 <instance part="PAD10" gate="G$1" x="124.46" y="60.96"/>
+<instance part="PAD11" gate="G$1" x="182.88" y="134.62"/>
+<instance part="PAD12" gate="G$1" x="182.88" y="116.84"/>
+<instance part="PAD13" gate="G$1" x="182.88" y="99.06"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="PAD11" gate="G$1" pin="PAD"/>
+<pinref part="PAD12" gate="G$1" pin="PAD"/>
+<wire x1="182.88" y1="134.62" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

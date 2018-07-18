@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -102,10 +102,10 @@
 <smd name="1" x="0" y="0" dx="3.175" dy="3.175" layer="1"/>
 </package>
 <package name="162.5MIL">
-<text x="-3.81" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.1275" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="-0.9525" y="0.635" dx="4.1275" dy="4.1275" layer="1"/>
-<dimension x1="-3.01625" y1="0.635" x2="1.11125" y2="0.635" x3="-0.9525" y3="0.3175" textsize="1.27" layer="49" visible="yes"/>
+<text x="-2.8575" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="1" x="0" y="0" dx="4.1275" dy="4.1275" layer="1"/>
+<dimension x1="-2.06375" y1="0" x2="2.06375" y2="0" x3="0" y3="-0.3175" textsize="1.27" layer="49" visible="yes"/>
 </package>
 </packages>
 <symbols>
