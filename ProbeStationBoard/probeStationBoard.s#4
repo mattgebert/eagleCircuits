@@ -253,18 +253,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="Probe_Station_Pads">
 <packages>
 <package name="125MIL">
+<smd name="1" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
+<polygon width="0.127" layer="1">
+<vertex x="-1.5875" y="1.5875"/>
+<vertex x="-1.5875" y="-1.5875"/>
+<vertex x="1.5875" y="-1.5875"/>
+<vertex x="1.5875" y="1.5875"/>
+</polygon>
 <text x="-3.4925" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="0" y="0" dx="3.175" dy="3.175" layer="1"/>
 </package>
 <package name="162.5MIL">
-<text x="-2.8575" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="0" y="0" dx="4.1275" dy="4.1275" layer="1"/>
-<dimension x1="-2.06375" y1="0" x2="2.06375" y2="0" x3="0" y3="-0.3175" textsize="1.27" layer="49" visible="yes"/>
+<smd name="1" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
+<polygon width="0.127" layer="1">
+<vertex x="-2.54" y="2.54"/>
+<vertex x="1.5875" y="2.54"/>
+<vertex x="1.5875" y="-1.5875"/>
+<vertex x="-2.54" y="-1.5875"/>
+</polygon>
+<dimension x1="1.5875" y1="-1.5875" x2="-2.54" y2="-1.5875" x3="-0.47625" y3="-0.635" textsize="1.27" layer="49" visible="yes"/>
+<text x="-3.81" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.1275" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="300MIL">
-<smd name="1" x="0" y="0" dx="6.35" dy="6.35" layer="1"/>
+<smd name="1" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
 <polygon width="0.127" layer="1">
 <vertex x="-3.81" y="2.8575"/>
 <vertex x="-2.8575" y="3.81"/>
@@ -279,26 +291,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <dimension x1="-2.8575" y1="3.81" x2="2.8575" y2="3.81" x3="0" y3="3.4925" textsize="1.27" layer="49" visible="yes"/>
 <text x="-3.175" y="4.1275" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.4925" y="-5.3975" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-3.96875" y="2.8575"/>
-<vertex x="-2.8575" y="3.96875"/>
-<vertex x="2.8575" y="3.96875"/>
-<vertex x="3.96875" y="2.8575"/>
-<vertex x="3.96875" y="-2.8575"/>
-<vertex x="2.8575" y="-3.96875"/>
-<vertex x="-2.8575" y="-3.96875"/>
-<vertex x="-3.96875" y="-2.8575"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-3.81" y="2.8575"/>
-<vertex x="-2.8575" y="3.81"/>
-<vertex x="2.8575" y="3.81"/>
-<vertex x="3.81" y="2.8575"/>
-<vertex x="3.81" y="-2.8575"/>
-<vertex x="2.8575" y="-3.81"/>
-<vertex x="-2.8575" y="-3.81"/>
-<vertex x="-3.81" y="-2.8575"/>
-</polygon>
 </package>
 </packages>
 <symbols>
@@ -432,6 +424,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="182.88" y1="116.84" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
 <junction x="182.88" y="116.84"/>
+<label x="182.88" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PAD01" class="0">

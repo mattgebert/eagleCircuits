@@ -1,0 +1,10 @@
+M48
+;GenerationSoftware,Autodesk,EAGLE,9.1.0*%
+;CreationDate,2018-07-18T02:57:18Z*%
+FMAT,2
+ICI,OFF
+METRIC,TZ,000.000
+%
+G90
+M71
+M30

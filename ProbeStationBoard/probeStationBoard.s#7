@@ -253,52 +253,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="Probe_Station_Pads">
 <packages>
 <package name="125MIL">
-<text x="-3.4925" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="0" y="0" dx="3.175" dy="3.175" layer="1"/>
-</package>
-<package name="162.5MIL">
-<text x="-2.8575" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="0" y="0" dx="4.1275" dy="4.1275" layer="1"/>
-<dimension x1="-2.06375" y1="0" x2="2.06375" y2="0" x3="0" y3="-0.3175" textsize="1.27" layer="49" visible="yes"/>
-</package>
-<package name="300MIL">
-<smd name="1" x="0" y="0" dx="6.35" dy="6.35" layer="1"/>
+<smd name="1" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
 <polygon width="0.127" layer="1">
-<vertex x="-3.81" y="2.8575"/>
-<vertex x="-2.8575" y="3.81"/>
-<vertex x="2.8575" y="3.81"/>
-<vertex x="3.81" y="2.8575"/>
-<vertex x="3.81" y="-2.8575"/>
-<vertex x="2.8575" y="-3.81"/>
-<vertex x="-2.8575" y="-3.81"/>
-<vertex x="-3.81" y="-2.8575"/>
+<vertex x="-1.5875" y="1.5875"/>
+<vertex x="-1.5875" y="-1.5875"/>
+<vertex x="1.5875" y="-1.5875"/>
+<vertex x="1.5875" y="1.5875"/>
 </polygon>
-<dimension x1="-3.81" y1="-2.8575" x2="3.81" y2="-2.8575" x3="0" y3="-1.5875" textsize="1.27" layer="49" visible="yes"/>
-<dimension x1="-2.8575" y1="3.81" x2="2.8575" y2="3.81" x3="0" y3="3.4925" textsize="1.27" layer="49" visible="yes"/>
-<text x="-3.175" y="4.1275" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.4925" y="-5.3975" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-3.96875" y="2.8575"/>
-<vertex x="-2.8575" y="3.96875"/>
-<vertex x="2.8575" y="3.96875"/>
-<vertex x="3.96875" y="2.8575"/>
-<vertex x="3.96875" y="-2.8575"/>
-<vertex x="2.8575" y="-3.96875"/>
-<vertex x="-2.8575" y="-3.96875"/>
-<vertex x="-3.96875" y="-2.8575"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-3.81" y="2.8575"/>
-<vertex x="-2.8575" y="3.81"/>
-<vertex x="2.8575" y="3.81"/>
-<vertex x="3.81" y="2.8575"/>
-<vertex x="3.81" y="-2.8575"/>
-<vertex x="2.8575" y="-3.81"/>
-<vertex x="-2.8575" y="-3.81"/>
-<vertex x="-3.81" y="-2.8575"/>
-</polygon>
+<text x="-3.4925" y="1.905" size="1.27" layer="27">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -341,36 +304,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="PAD_RECTANGULAR_162.5MIL" prefix="PAD">
-<gates>
-<gate name="G$1" symbol="PAD" x="-10.16" y="0"/>
-</gates>
-<devices>
-<device name="" package="162.5MIL">
-<connects>
-<connect gate="G$1" pin="PAD" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PAD_RECTANGULAR_300MIL" prefix="PAD">
-<gates>
-<gate name="G$1" symbol="PAD" x="-10.16" y="0"/>
-</gates>
-<devices>
-<device name="" package="300MIL">
-<connects>
-<connect gate="G$1" pin="PAD" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -394,9 +327,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="PAD8" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_125MIL" device=""/>
 <part name="PAD9" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_125MIL" device=""/>
 <part name="PAD10" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_125MIL" device=""/>
-<part name="PAD11" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_162.5MIL" device=""/>
-<part name="PAD12" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_162.5MIL" device=""/>
-<part name="PAD13" library="Probe_Station_Pads" deviceset="PAD_RECTANGULAR_300MIL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -416,96 +346,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="PAD8" gate="G$1" x="124.46" y="96.52"/>
 <instance part="PAD9" gate="G$1" x="124.46" y="78.74"/>
 <instance part="PAD10" gate="G$1" x="124.46" y="60.96"/>
-<instance part="PAD11" gate="G$1" x="182.88" y="134.62"/>
-<instance part="PAD12" gate="G$1" x="182.88" y="116.84"/>
-<instance part="PAD13" gate="G$1" x="185.42" y="96.52"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GATE" class="0">
-<segment>
-<pinref part="PAD11" gate="G$1" pin="PAD"/>
-<pinref part="PAD12" gate="G$1" pin="PAD"/>
-<wire x1="182.88" y1="134.62" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="PAD13" gate="G$1" pin="PAD"/>
-<wire x1="182.88" y1="116.84" x2="182.88" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
-<junction x="182.88" y="116.84"/>
-</segment>
-</net>
-<net name="PAD01" class="0">
-<segment>
-<pinref part="PAD1" gate="G$1" pin="PAD"/>
-<wire x1="71.12" y1="134.62" x2="66.04" y2="134.62" width="0.1524" layer="91"/>
-<label x="60.96" y="134.62" size="1.778" layer="95"/>
-<wire x1="66.04" y1="134.62" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PAD02" class="0">
-<segment>
-<pinref part="PAD2" gate="G$1" pin="PAD"/>
-<wire x1="71.12" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
-<label x="66.04" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAD03" class="0">
-<segment>
-<pinref part="PAD3" gate="G$1" pin="PAD"/>
-<wire x1="71.12" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
-<label x="66.04" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAD04" class="0">
-<segment>
-<pinref part="PAD4" gate="G$1" pin="PAD"/>
-<wire x1="71.12" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
-<label x="66.04" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAD05" class="0">
-<segment>
-<pinref part="PAD5" gate="G$1" pin="PAD"/>
-<wire x1="71.12" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
-<label x="66.04" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAD10" class="0">
-<segment>
-<pinref part="PAD10" gate="G$1" pin="PAD"/>
-<wire x1="124.46" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
-<label x="116.84" y="60.96" size="1.778" layer="95"/>
-<wire x1="119.38" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PAD09" class="0">
-<segment>
-<pinref part="PAD9" gate="G$1" pin="PAD"/>
-<wire x1="124.46" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
-<label x="116.84" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAD08" class="0">
-<segment>
-<pinref part="PAD8" gate="G$1" pin="PAD"/>
-<wire x1="124.46" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
-<label x="114.3" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAD07" class="0">
-<segment>
-<pinref part="PAD7" gate="G$1" pin="PAD"/>
-<wire x1="124.46" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
-<label x="114.3" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PAD06" class="0">
-<segment>
-<pinref part="PAD6" gate="G$1" pin="PAD"/>
-<wire x1="124.46" y1="134.62" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
-<label x="114.3" y="134.62" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
