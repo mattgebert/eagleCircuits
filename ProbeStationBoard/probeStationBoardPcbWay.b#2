@@ -168,7 +168,7 @@
 <text x="17.78" y="10.4775" size="0.3048" layer="21">PAD05</text>
 <text x="2.517775" y="13.7541" size="0.3048" layer="22" rot="MR90">Designed By</text>
 <text x="1.882775" y="13.7541" size="0.381" layer="22" rot="MR90">Matthew Gebert</text>
-<text x="3.057525" y="13.68425" size="0.4064" layer="22" rot="MR90">Probe Station Board</text>
+<text x="3.057525" y="13.68425" size="0.3556" layer="22" rot="MR90">Probe Station Board</text>
 <text x="2.4257" y="17.637125" size="0.3048" layer="22" rot="MR90">2018</text>
 <text x="1.495425" y="13.54455" size="0.2032" layer="22" rot="MR90">github.com/mattgebert/eagleCircuits</text>
 <wire x1="1.27" y1="13.6525" x2="1.27" y2="18.7325" width="0.1524" layer="22"/>
@@ -184,7 +184,7 @@
 <dimension x1="4.445" y1="1.27" x2="1.27" y2="1.27" x3="2.8575" y3="-1.5875" textsize="0.6096" textratio="4" layer="49" width="0.1" visible="yes"/>
 <dimension x1="15.5575" y1="0.635" x2="19.685" y2="0.635" x3="17.62125" y3="-1.74625" textsize="0.6096" textratio="4" layer="49" width="0.1" visible="yes"/>
 <dimension x1="9.8425" y1="6.35" x2="9.8425" y2="13.97" x3="-1.905" y3="10.16" textsize="0.6096" textratio="4" layer="49" width="0.1" visible="yes"/>
-<text x="14.195425" y="0.3683" size="0.254" layer="21">github.com/mattgebert/eagleCircuits</text>
+<text x="13.242925" y="0.3683" size="0.254" layer="21">github.com/mattgebert/eagleCircuits</text>
 <text x="0.835025" y="19.39925" size="0.4064" layer="21">Probe Station Board</text>
 </plain>
 <libraries>
