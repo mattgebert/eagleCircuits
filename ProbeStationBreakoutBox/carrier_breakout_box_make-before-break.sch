@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -43,8 +57,15 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -56,6 +77,84 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -438,6 +537,91 @@ distributor Buerklin 78F2475</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BANANA_CONN" urn="urn:adsk.eagle:footprint:37619/1" library_version="1">
+<description>&lt;h3&gt;Banana Plug PTH&lt;/h3&gt;
+0.2" diameter pad, 0.1" hole. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BANANA_CONN&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="0" y="0" radius="2.8398" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="3.81" diameter="5.461"/>
+<text x="-2.54" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2.54" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="BANANA_CONN" urn="urn:adsk.eagle:package:38018/1" type="box" library_version="1">
+<description>Banana Plug PTH
+0.2" diameter pad, 0.1" hole. 
+Specifications:
+Pin count: 1
+
+Example device(s):
+BANANA_CONN
+</description>
+<packageinstances>
+<packageinstance name="BANANA_CONN"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="BANANA_CONN" urn="urn:adsk.eagle:symbol:37618/1" library_version="1">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;</description>
+<circle x="0" y="0" radius="1.2951" width="0.254" layer="94"/>
+<text x="-1.016" y="1.778" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-3.048" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BANANA_CONN" urn="urn:adsk.eagle:component:38313/1" prefix="J" uservalue="yes" library_version="1">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/10956"&gt;Multimeter Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/509"&gt;Banana to Alligator Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/508"&gt;Banana to Alligator Coax Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/507"&gt;Banana to Banana Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/506"&gt;Banana to IC Hook Cables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BANANA_CONN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="BANANA_CONN">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38018/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -525,6 +709,30 @@ distributor Buerklin 78F2475</description>
 <part name="S46" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="TL32PO" device="" package3d_urn="urn:adsk.eagle:package:27745/1"/>
 <part name="S47" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="TL32PO" device="" package3d_urn="urn:adsk.eagle:package:27745/1"/>
 <part name="S48" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="TL32PO" device="" package3d_urn="urn:adsk.eagle:package:27745/1"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J11" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J14" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J16" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J17" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J18" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J19" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J21" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J22" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J23" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J24" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -839,6 +1047,102 @@ distributor Buerklin 78F2475</description>
 <attribute name="NAME" x="134.62" y="-149.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="134.62" y="-152.4" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="-76.2" y="-137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="-75.184" y="-138.938" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-75.184" y="-134.112" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="J2" gate="G$1" x="-76.2" y="-111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="-75.184" y="-113.538" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-75.184" y="-108.712" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="J3" gate="G$1" x="-76.2" y="-86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="-75.184" y="-88.138" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-75.184" y="-83.312" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="J4" gate="G$1" x="-76.2" y="-60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="-75.184" y="-62.738" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-75.184" y="-57.912" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="J5" gate="G$1" x="-76.2" y="-35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="-75.184" y="-37.338" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-75.184" y="-32.512" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="J6" gate="G$1" x="-76.2" y="-10.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="-75.184" y="-11.938" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-75.184" y="-7.112" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="J7" gate="G$1" x="162.56" y="-30.48" smashed="yes">
+<attribute name="NAME" x="161.544" y="-28.702" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="161.544" y="-33.528" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J8" gate="G$1" x="162.56" y="-55.88" smashed="yes">
+<attribute name="NAME" x="161.544" y="-54.102" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="161.544" y="-58.928" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J9" gate="G$1" x="162.56" y="-81.28" smashed="yes">
+<attribute name="NAME" x="161.544" y="-79.502" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="161.544" y="-84.328" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J10" gate="G$1" x="162.56" y="-106.68" smashed="yes">
+<attribute name="NAME" x="161.544" y="-104.902" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="161.544" y="-109.728" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J11" gate="G$1" x="162.56" y="-132.08" smashed="yes">
+<attribute name="NAME" x="161.544" y="-130.302" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="161.544" y="-135.128" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J12" gate="G$1" x="162.56" y="-157.48" smashed="yes">
+<attribute name="NAME" x="161.544" y="-155.702" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="161.544" y="-160.528" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J13" gate="G$1" x="-30.48" y="-195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="-32.258" y="-196.596" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-27.432" y="-196.596" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="J14" gate="G$1" x="-5.08" y="-195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="-6.858" y="-196.596" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-2.032" y="-196.596" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="J15" gate="G$1" x="20.32" y="-195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.542" y="-196.596" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="23.368" y="-196.596" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="J16" gate="G$1" x="45.72" y="-195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.942" y="-196.596" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="48.768" y="-196.596" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="J17" gate="G$1" x="71.12" y="-195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.342" y="-196.596" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="74.168" y="-196.596" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="J18" gate="G$1" x="96.52" y="-195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="94.742" y="-196.596" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="99.568" y="-196.596" size="1.778" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="J19" gate="G$1" x="116.84" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="118.618" y="31.496" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="113.792" y="31.496" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="J20" gate="G$1" x="91.44" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="93.218" y="31.496" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="88.392" y="31.496" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="J21" gate="G$1" x="66.04" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="67.818" y="31.496" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="62.992" y="31.496" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="J22" gate="G$1" x="40.64" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="42.418" y="31.496" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="37.592" y="31.496" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="J23" gate="G$1" x="15.24" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.018" y="31.496" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="12.192" y="31.496" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="J24" gate="G$1" x="-10.16" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="-8.382" y="31.496" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="-13.208" y="31.496" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1121,14 +1425,18 @@ distributor Buerklin 78F2475</description>
 <pinref part="S19" gate="BEF1" pin="O"/>
 <wire x1="99.06" y1="-177.8" x2="96.52" y2="-177.8" width="0.1524" layer="91"/>
 <pinref part="X19" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="-185.42" x2="101.6" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-185.42" x2="101.6" y2="-198.12" width="0.1524" layer="91"/>
 <pinref part="S25" gate="BEF1" pin="O"/>
 <junction x="101.6" y="-185.42"/>
+<wire x1="101.6" y1="-198.12" x2="101.6" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="-185.42" x2="101.6" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-177.8" x2="96.52" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-185.42" x2="101.6" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-177.8" x2="109.22" y2="-177.8" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="-177.8" x2="109.22" y2="-185.42" width="0.1524" layer="91"/>
+<pinref part="J18" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="-198.12" x2="101.6" y2="-198.12" width="0.1524" layer="91"/>
+<junction x="101.6" y="-198.12"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -1139,11 +1447,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S20" gate="BEF1" pin="O"/>
 <pinref part="X20" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="-177.8" x2="71.12" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-185.42" x2="76.2" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-185.42" x2="76.2" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-198.12" x2="76.2" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-185.42" x2="76.2" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="76.2" y="-185.42"/>
 <wire x1="71.12" y1="-177.8" x2="71.12" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-185.42" x2="76.2" y2="-185.42" width="0.1524" layer="91"/>
+<pinref part="J17" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="-198.12" x2="76.2" y2="-198.12" width="0.1524" layer="91"/>
+<junction x="76.2" y="-198.12"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -1154,11 +1466,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S21" gate="BEF1" pin="O"/>
 <pinref part="X21" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="-177.8" x2="45.72" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-185.42" x2="50.8" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-185.42" x2="50.8" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-198.12" x2="50.8" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-185.42" x2="50.8" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="50.8" y="-185.42"/>
 <wire x1="45.72" y1="-177.8" x2="45.72" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-185.42" x2="50.8" y2="-185.42" width="0.1524" layer="91"/>
+<pinref part="J16" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="-198.12" x2="50.8" y2="-198.12" width="0.1524" layer="91"/>
+<junction x="50.8" y="-198.12"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -1169,11 +1485,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S22" gate="BEF1" pin="O"/>
 <pinref part="X22" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="-177.8" x2="20.32" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-185.42" x2="25.4" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-185.42" x2="25.4" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-198.12" x2="25.4" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-185.42" x2="25.4" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="25.4" y="-185.42"/>
 <wire x1="20.32" y1="-177.8" x2="20.32" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-185.42" x2="25.4" y2="-185.42" width="0.1524" layer="91"/>
+<pinref part="J15" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-198.12" x2="25.4" y2="-198.12" width="0.1524" layer="91"/>
+<junction x="25.4" y="-198.12"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -1184,11 +1504,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S23" gate="BEF1" pin="O"/>
 <pinref part="X23" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="-177.8" x2="-5.08" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="0" y1="-185.42" x2="0" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="0" y1="-185.42" x2="0" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="0" y1="-198.12" x2="0" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-185.42" x2="0" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="0" y="-185.42"/>
 <wire x1="-5.08" y1="-177.8" x2="-5.08" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="-185.42" x2="0" y2="-185.42" width="0.1524" layer="91"/>
+<pinref part="J14" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="-198.12" x2="0" y2="-198.12" width="0.1524" layer="91"/>
+<junction x="0" y="-198.12"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -1199,11 +1523,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S24" gate="BEF1" pin="O"/>
 <pinref part="X24" gate="G$1" pin="1"/>
 <wire x1="-27.94" y1="-177.8" x2="-30.48" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-185.42" x2="-25.4" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-185.42" x2="-25.4" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-198.12" x2="-25.4" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="-185.42" x2="-25.4" y2="-185.42" width="0.1524" layer="91"/>
 <junction x="-25.4" y="-185.42"/>
 <wire x1="-25.4" y1="-185.42" x2="-30.48" y2="-185.42" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="-185.42" x2="-30.48" y2="-177.8" width="0.1524" layer="91"/>
+<pinref part="J13" gate="G$1" pin="1"/>
+<wire x1="-30.48" y1="-198.12" x2="-25.4" y2="-198.12" width="0.1524" layer="91"/>
+<junction x="-25.4" y="-198.12"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -1211,14 +1539,18 @@ distributor Buerklin 78F2475</description>
 <pinref part="S1" gate="BEF1" pin="O"/>
 <wire x1="-12.7" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="1"/>
-<wire x1="-15.24" y1="20.32" x2="-15.24" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="S7" gate="BEF1" pin="O"/>
 <junction x="-15.24" y="20.32"/>
+<wire x1="-15.24" y1="33.02" x2="-15.24" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="20.32" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="12.7" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="20.32" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="12.7" x2="-22.86" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="12.7" x2="-22.86" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J24" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-15.24" y="33.02"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -1229,11 +1561,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S2" gate="BEF1" pin="O"/>
 <pinref part="X2" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="20.32" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="33.02" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="91"/>
 <junction x="10.16" y="20.32"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J23" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="33.02" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
+<junction x="10.16" y="33.02"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -1244,11 +1580,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S3" gate="BEF1" pin="O"/>
 <pinref part="X3" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="12.7" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="20.32" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
 <junction x="35.56" y="20.32"/>
 <wire x1="40.64" y1="12.7" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J22" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
+<junction x="35.56" y="33.02"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -1259,11 +1599,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S4" gate="BEF1" pin="O"/>
 <pinref part="X4" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="20.32" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="20.32" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="33.02" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
 <junction x="60.96" y="20.32"/>
 <wire x1="66.04" y1="12.7" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="20.32" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J21" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<junction x="60.96" y="33.02"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -1274,11 +1618,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S5" gate="BEF1" pin="O"/>
 <pinref part="X5" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="20.32" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="20.32" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="33.02" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
 <junction x="86.36" y="20.32"/>
 <wire x1="91.44" y1="12.7" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J20" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
+<junction x="86.36" y="33.02"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -1289,11 +1637,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S6" gate="BEF1" pin="O"/>
 <pinref part="X6" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="12.7" x2="116.84" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="20.32" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="20.32" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="33.02" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="20.32" x2="111.76" y2="20.32" width="0.1524" layer="91"/>
 <junction x="111.76" y="20.32"/>
 <wire x1="111.76" y1="20.32" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="20.32" x2="116.84" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="J19" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<junction x="111.76" y="33.02"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -1345,11 +1697,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S14" gate="BEF1" pin="O"/>
 <pinref part="X8" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-114.3" x2="-55.88" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-116.84" x2="-81.28" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-116.84" x2="-73.66" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-116.84" x2="-81.28" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-124.46" x2="-63.5" y2="-116.84" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-116.84"/>
 <wire x1="-55.88" y1="-111.76" x2="-63.5" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-111.76" x2="-63.5" y2="-116.84" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="-111.76" x2="-73.66" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="-73.66" y="-116.84"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -1360,11 +1716,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S15" gate="BEF1" pin="O"/>
 <pinref part="X9" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-88.9" x2="-55.88" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-91.44" x2="-81.28" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-91.44" x2="-73.66" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-91.44" x2="-81.28" y2="-91.44" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-99.06" x2="-63.5" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-91.44"/>
 <wire x1="-55.88" y1="-86.36" x2="-63.5" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-86.36" x2="-63.5" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="-86.36" x2="-73.66" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="-73.66" y="-91.44"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -1375,11 +1735,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S16" gate="BEF1" pin="O"/>
 <pinref part="X10" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-63.5" x2="-55.88" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-66.04" x2="-81.28" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-66.04" x2="-73.66" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-66.04" x2="-81.28" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-73.66" x2="-63.5" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-66.04"/>
 <wire x1="-55.88" y1="-60.96" x2="-63.5" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-60.96" x2="-63.5" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="-60.96" x2="-73.66" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="-73.66" y="-66.04"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -1390,11 +1754,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S17" gate="BEF1" pin="O"/>
 <pinref part="X11" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-38.1" x2="-55.88" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-40.64" x2="-81.28" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-40.64" x2="-73.66" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-40.64" x2="-81.28" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-48.26" x2="-63.5" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-40.64"/>
 <wire x1="-55.88" y1="-35.56" x2="-63.5" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-35.56" x2="-63.5" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="-35.56" x2="-73.66" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="-73.66" y="-40.64"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -1405,11 +1773,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S18" gate="BEF1" pin="O"/>
 <pinref part="X12" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-12.7" x2="-55.88" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="-15.24" x2="-81.28" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="-15.24" x2="-73.66" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="-15.24" x2="-81.28" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-22.86" x2="-63.5" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-63.5" y="-15.24"/>
 <wire x1="-63.5" y1="-15.24" x2="-63.5" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-63.5" y1="-10.16" x2="-55.88" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="-73.66" y1="-10.16" x2="-73.66" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-73.66" y="-15.24"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -1417,14 +1789,18 @@ distributor Buerklin 78F2475</description>
 <pinref part="S37" gate="BEF1" pin="O"/>
 <wire x1="142.24" y1="-27.94" x2="142.24" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="X13" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="-25.4" x2="167.64" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-25.4" x2="160.02" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="S43" gate="BEF1" pin="O"/>
 <junction x="149.86" y="-25.4"/>
+<wire x1="160.02" y1="-25.4" x2="167.64" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-17.78" x2="149.86" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-30.48" x2="149.86" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-30.48" x2="149.86" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-15.24" x2="142.24" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-17.78" x2="149.86" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-30.48" x2="160.02" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="160.02" y="-25.4"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -1435,11 +1811,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S38" gate="BEF1" pin="O"/>
 <pinref part="X14" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-53.34" x2="142.24" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-50.8" x2="167.64" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-50.8" x2="160.02" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-50.8" x2="167.64" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-43.18" x2="149.86" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="149.86" y="-50.8"/>
 <wire x1="142.24" y1="-55.88" x2="149.86" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-55.88" x2="149.86" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-55.88" x2="160.02" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="160.02" y="-50.8"/>
 </segment>
 </net>
 <net name="N$68" class="0">
@@ -1450,11 +1830,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S39" gate="BEF1" pin="O"/>
 <pinref part="X15" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-78.74" x2="142.24" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-76.2" x2="167.64" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-76.2" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-76.2" x2="167.64" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-68.58" x2="149.86" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="149.86" y="-76.2"/>
 <wire x1="142.24" y1="-81.28" x2="149.86" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-81.28" x2="149.86" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-81.28" x2="160.02" y2="-76.2" width="0.1524" layer="91"/>
+<junction x="160.02" y="-76.2"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -1465,11 +1849,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S40" gate="BEF1" pin="O"/>
 <pinref part="X16" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-104.14" x2="142.24" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-101.6" x2="167.64" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-101.6" x2="160.02" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-101.6" x2="167.64" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-93.98" x2="149.86" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="149.86" y="-101.6"/>
 <wire x1="142.24" y1="-106.68" x2="149.86" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-106.68" x2="149.86" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-106.68" x2="160.02" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="160.02" y="-101.6"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -1480,11 +1868,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S41" gate="BEF1" pin="O"/>
 <pinref part="X17" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-129.54" x2="142.24" y2="-132.08" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-127" x2="167.64" y2="-127" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-127" x2="160.02" y2="-127" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-127" x2="167.64" y2="-127" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-119.38" x2="149.86" y2="-127" width="0.1524" layer="91"/>
 <junction x="149.86" y="-127"/>
 <wire x1="142.24" y1="-132.08" x2="149.86" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-132.08" x2="149.86" y2="-127" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-132.08" x2="160.02" y2="-127" width="0.1524" layer="91"/>
+<junction x="160.02" y="-127"/>
 </segment>
 </net>
 <net name="N$71" class="0">
@@ -1495,11 +1887,15 @@ distributor Buerklin 78F2475</description>
 <pinref part="S42" gate="BEF1" pin="O"/>
 <pinref part="X18" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-154.94" x2="142.24" y2="-157.48" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="-152.4" x2="167.64" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-152.4" x2="160.02" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-152.4" x2="167.64" y2="-152.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-144.78" x2="149.86" y2="-152.4" width="0.1524" layer="91"/>
 <junction x="149.86" y="-152.4"/>
 <wire x1="149.86" y1="-152.4" x2="149.86" y2="-157.48" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-157.48" x2="142.24" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="-157.48" x2="160.02" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="160.02" y="-152.4"/>
 </segment>
 </net>
 <net name="N$9" class="0">

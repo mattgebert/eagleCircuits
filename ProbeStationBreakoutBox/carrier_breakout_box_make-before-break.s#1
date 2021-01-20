@@ -595,9 +595,9 @@ distributor Buerklin 78F2475</description>
 <attribute name="VALUE" x="-20.32" y="-208.28" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="-28.702" y="-208.28" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="X25" gate="G$1" x="149.86" y="15.24" smashed="yes" rot="R180">
-<attribute name="VALUE" x="152.4" y="20.32" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="152.4" y="11.938" size="1.778" layer="95" rot="R180"/>
+<instance part="X25" gate="G$1" x="154.94" y="12.7" smashed="yes" rot="R180">
+<attribute name="VALUE" x="157.48" y="17.78" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="157.48" y="9.398" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="S25" gate="BEF1" x="109.22" y="-172.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.14" y="-170.18" size="1.778" layer="95" rot="R270"/>
@@ -1792,8 +1792,8 @@ distributor Buerklin 78F2475</description>
 <junction x="144.78" y="0"/>
 <wire x1="144.78" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
 <junction x="119.38" y="15.24"/>
-<pinref part="X25" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="15.24" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="X25" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="15.24" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
 <junction x="144.78" y="15.24"/>
 </segment>
 </net>
